@@ -4,11 +4,11 @@
 
 
 ## Objective: 
-As part of the intensive Data Engineering boot camp at DataExpert.io led by Zach Wilson, we designed a real-time streaming app and historical trend analysis of NYC Citibike's bike-share data for our capstone submission. We are thrilled to present the final product and our approach and design decisions we took along the way to make the design simple and intuitive yet utilizing modern data engineering practices. Please follow along as we walk you through the step-by-step process of achieving our final product.
+Designed a real-time streaming app and historical trend analysis of NYC Citibike's bike-share data for our capstone submission. I am thrilled to present the final product and  approach and design decisions i took along the way to make the design simple and intuitive yet utilizing modern data engineering practices. Please follow along as i walk you through the step-by-step process of achieving our final product.
 
 ## Motivation: 
-As a nature lover and adventure enthusiast, we strongly believe in sustainable and clean energy resources that are good for us and the planet. Thus the GBFS dataset intrigued us as it is an amazing initiative to make shared mobility data available from more than 50+ countries in open data format. This is a great example of how we can leverage the power of technology to solve real-world problems.
-Combining technology and a keen interest in doing my part to reduce carbon footprint by promoting sustainable modes of commute we decided to architect a streaming application to track real-time changes happening at the different stations using the Citibike NYC data feeds. To double down on the carbon footprint reduction we also made conscious design choices like minimizing storage of large-scale datasets and using cloud storage effectively by configuring tight retention policies, optimizing data processing techniques by introducing mico-batch processing, and preventing large-scale processing caused by shuffling of data in Spark executors and by overwhelming executors to process more data by consuming more compute resources.
+As a nature lover and adventure enthusiast, i strongly believe in sustainable and clean energy resources that are good for us and the planet. Thus the GBFS dataset intrigued  as it is an amazing initiative to make shared mobility data available from more than 50+ countries in open data format. This is a great example of how we can leverage the power of technology to solve real-world problems.
+Combining technology and a keen interest in doing my part to reduce carbon footprint by promoting sustainable modes of commute i decided to architect a streaming application to track real-time changes happening at the different stations using the Citibike NYC data feeds. To double down on the carbon footprint reduction i also made conscious design choices like minimizing storage of large-scale datasets and using cloud storage effectively by configuring tight retention policies, optimizing data processing techniques by introducing mico-batch processing, and preventing large-scale processing caused by shuffling of data in Spark executors and by overwhelming executors to process more data by consuming more compute resources.
 
 ## Scope: 
 - The project comprises 3 parallel processes
@@ -29,10 +29,6 @@ The processes have the following stages of data architecture:
 - Data Visualization
 
 **Part I: Real-time Streaming Pipeline using Kafka, Databricks and Snowflake**
-
-- [Medium Article Part 1 Streaming Pipeline using Kafka, PySpark, Snowflake](https://medium.com/@meeta.pandit890/end-to-end-pyspark-databricks-kafka-dbt-snowflake-and-dagster-etl-pipeline-part-i-14dd7d91c4e1)
-
-- [Medium Article Part 2 Historical Trend Analysis using DBT, Dagster and Snowflake](https://medium.com/@aayushi.beniwal/end-to-end-pyspark-databricks-kafka-dbt-snowflake-and-dagster-etl-pipeline-part-ii-fd923bb35e4d)
 
 - [Kaggle dataset](https://www.kaggle.com/datasets/aayushibeniwal/citibike-new-york-data)
 
@@ -198,9 +194,6 @@ Historical Citibike trip data : https://citibikenyc.com/system-data
 - What time of the day were the trips taken
 - What are the most popular stations?
     
-## Conceptual Diagram
-
-![meetapandit_conceptual_modeling drawio](https://github.com/DataExpert-ZachWilson-V4/capstone-project-meeta-p/assets/15186489/ceb466f5-b424-4c8f-8bef-9acc74212421)
 
 **References:**
 Historical Citibike trip data: https://citibikenyc.com/system-data
